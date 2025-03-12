@@ -1,0 +1,248 @@
+
+<!-- saved from url=(0070)file:///C:/Users/TETAP%20PAKAI%20MASKER/Documents/html/pernikahan.html -->
+<html lang="id"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>&lt;<!--DOC<!DOCTYPE html-->
+
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Customer Pernikahan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://example.com/path/to/your-image.jpg'); /* Ganti dengan URL gambar Anda */
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            width: 70%;
+            margin: 20px auto;
+            padding: 25px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        h3 {
+            color: #333;
+            font-size: 1.2rem;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        label {
+            font-size: 1rem;
+            color: #555;
+            margin-bottom: 8px;
+            display: block;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        .checkbox-group {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .checkbox-group label {
+            width: 45%;
+            margin-right: 5%;
+        }
+        .checkbox-group input[type="text"] {
+            width: 100%;
+            margin-left: 5px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.1rem;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .form-section {
+            margin-bottom: 20px;
+        }
+        .form-section p {
+            font-size: 1rem;
+            color: #777;
+        }
+    </style>
+
+
+
+    <div class="container">
+        <h1>Formulir Customer Pernikahan</h1>
+        <p>Selamat datang di layanan pernikahan kami! Silakan isi formulir di bawah ini untuk membantu kami memahami kebutuhan pernikahan Anda.</p>
+        
+        <form action="file:///C:/Users/TETAP%20PAKAI%20MASKER/Documents/html/pernikahan.html#" method="POST">
+            <!-- Data Pasangan -->
+            <div class="form-section">
+                <h3>1. Data Pasangan</h3>
+                <label for="name1">Nama Lengkap Pasangan 1:</label>
+                <input type="text" id="name1" name="name1" required="">
+
+                <label for="name2">Nama Lengkap Pasangan 2:</label>
+                <input type="text" id="name2" name="name2" required="">
+
+                <label for="email">Alamat Email:</label>
+                <input type="email" id="email" name="email" required="">
+
+                <label for="phone">Nomor Telepon:</label>
+                <input type="tel" id="phone" name="phone" required="">
+
+                <label for="weddingDate">Tanggal Pernikahan yang Diinginkan:</label>
+                <input type="date" id="weddingDate" name="weddingDate" required="">
+            </div>
+
+            <!-- Layanan yang Diperlukan -->
+            <div class="form-section">
+                <h3>2. Layanan yang Diperlukan</h3>
+                <div class="checkbox-group">
+                    <!-- Sewa Tempat Gedung -->
+                    <label><input type="checkbox" name="services" value="Sewa Tempat Pernikahan"> Sewa Tempat Pernikahan</label>
+                    <select name="venueOptions">
+                        <option value="Gedung A">Gedung A</option>
+                        <option value="Gedung B">Gedung B</option>
+                        <option value="Gedung C">Gedung C</option>
+                    </select>
+
+                    <!-- Penyediaan Catering -->
+                    <label><input type="checkbox" name="services" value="Penyediaan Catering"> Penyediaan Catering</label>
+                    <select name="cateringOptions">
+                        <option value="Masakan Tradisional">Masakan Tradisional</option>
+                        <option value="Masakan Modern">Masakan Modern</option>
+                        <option value="Masakan Internasional">Masakan Internasional</option>
+                    </select>
+
+                    <!-- Penyewaan Pakaian Pengantin -->
+                    <label><input type="checkbox" name="services" value="Penyewaan Pakaian Pengantin"> Penyewaan Pakaian Pengantin</label>
+                    <select name="outfitOptions">
+                        <option value="Pakaian Tradisional">Pakaian Tradisional</option>
+                        <option value="Pakaian Modern">Pakaian Modern</option>
+                        <option value="Pakaian Casual">Pakaian Casual</option>
+                    </select>
+
+                    <!-- Musik dan Hiburan -->
+                    <label><input type="checkbox" name="services" value="Musik &amp; Hiburan"> Musik &amp; Hiburan</label>
+                    <select name="musicOptions">
+                        <option value="Live Band">Live Band</option>
+                        <option value="DJ">DJ</option>
+                        <option value="Orkestra">Orkestra</option>
+                    </select>
+
+                    <!-- Dekorasi Pernikahan -->
+                    <label><input type="checkbox" name="services" value="Dekorasi Pernikahan"> Dekorasi Pernikahan</label>
+                    <select name="decorOptions">
+                        <option value="Dekorasi Tradisional">Dekorasi Tradisional</option>
+                        <option value="Dekorasi Modern">Dekorasi Modern</option>
+                        <option value="Dekorasi Minimalis">Dekorasi Minimalis</option>
+                    </select>
+
+                    <!-- Fotografi dan Videografi -->
+                    <label><input type="checkbox" name="services" value="Fotografi dan Videografi"> Fotografi dan Videografi</label>
+                    <select name="photoOptions">
+                        <option value="Fotografi Standar">Fotografi Standar</option>
+                        <option value="Fotografi Premium">Fotografi Premium</option>
+                        <option value="Videografi Profesional">Videografi Profesional</option>
+                    </select>
+
+                    <!-- Make-Up Artist (MUA) -->
+                    <label><input type="checkbox" name="services" value="MUA (Make-Up Artist)"> MUA (Make-Up Artist)</label>
+                    <select name="muaOptions">
+                        <option value="MUA Basic">MUA Basic</option>
+                        <option value="MUA Premium">MUA Premium</option>
+                        <option value="MUA Eksklusif">MUA Eksklusif</option>
+                    </select>
+
+                    <!-- Koordinator Pernikahan -->
+                    <label><input type="checkbox" name="services" value="Koordinator Pernikahan"> Koordinator Pernikahan</label>
+                    <select name="coordinatorOptions">
+                        <option value="Koordinator Standar">Koordinator Standar</option>
+                        <option value="Koordinator Profesional">Koordinator Profesional</option>
+                    </select>
+
+                    <!-- Perencana Keuangan Pernikahan -->
+                    <label><input type="checkbox" name="services" value="Perencana Keuangan Pernikahan"> Perencana Keuangan Pernikahan</label>
+                    <select name="financeOptions">
+                        <option value="Paket Hemat">Paket Hemat</option>
+                        <option value="Paket Menengah">Paket Menengah</option>
+                        <option value="Paket Premium">Paket Premium</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Tema Pernikahan -->
+            <div class="form-section">
+                <h3>3. Tema Pernikahan</h3>
+                <select name="weddingTheme" id="weddingTheme">
+                    <option value="Tradisional">Pernikahan Tradisional</option>
+                    <option value="Modern">Pernikahan Modern</option>
+                    <option value="Outdoor">Pernikahan Outdoor</option>
+                    <option value="Elegant">Pernikahan Elegant</option>
+                    <option value="Lainnya">Lainnya</option>
+                </select>
+            </div>
+
+            <!-- Jumlah Tamu -->
+            <div class="form-section">
+                <h3>4. Jumlah Tamu yang Diundang</h3>
+                <label for="guests">Jumlah Tamu Undangan:</label>
+                <input type="number" id="guests" name="guests" required="">
+
+                <label for="vipGuests">Jumlah Tamu VIP (jika ada):</label>
+                <input type="number" id="vipGuests" name="vipGuests">
+            </div>
+
+            <!-- Kebutuhan Khusus -->
+            <div class="form-section">
+                <h3>5. Kebutuhan Khusus</h3>
+                <textarea id="specialNeeds" name="specialNeeds" rows="4" placeholder="Tulis kebutuhan khusus Anda di sini..."></textarea>
+            </div>
+
+            <!-- Anggaran -->
+            <div class="form-section">
+                <h3>6. Anggaran</h3>
+                <label for="budget">Anggaran Total:</label>
+                <input type="number" id="budget" name="budget" required="">
+            </div>
+
+            <!-- Informasi Tambahan -->
+            <div class="form-section">
+                <h3>7. Informasi Tambahan</h3>
+                <textarea id="additionalInfo" name="additionalInfo" rows="4" placeholder="Tuliskan informasi tambahan yang ingin disampaikan..."></textarea>
+            </div>
+
+            <!-- Persetujuan -->
+            <div class="form-section">
+                <h3>8. Persetujuan</h3>
+                <label><input type="checkbox" name="agreement" required=""> Setuju dengan syarat dan ketentuan yang berlaku.</label>
+            </div>
+
+            <button type="submit">Kirim Formulir</button>
+        </form>
+
+        <button class="print-btn" onclick="printReceipt()">Cetak Struk</button>
+    </div>
+
+
+
+</body></html>
